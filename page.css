@@ -1,0 +1,74 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.Logo{
+    display:flex;
+    justify-content:space-between;
+    padding-left:10px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    font-size:20px;
+    font-weight: bold;
+    h1{
+        margin-left:10%;
+    }
+}
+.links{
+       display:flex;
+       gap:30px;
+       margin-right:5%;
+}
+.Desc{
+    display:flex;
+    background-color: #1F2937;
+    justify-content:center;
+    align-items:center;
+    h2{
+        font-size: 30px;
+        color: #f9faf8;
+        font-weight: 900px;
+    }
+    p{
+        font-size: 18px;
+        color: #e5e7eb;
+        
+    }
+}
+.DescText{
+    margin-left:20%;
+    margin-right:5%;
+    margin-top: 5%;
+    button{
+        background-color: #3882F6;
+        color: white;
+        border-radius: 7px;
+        border:none;
+        align-items:center;
+        font-size: 20px;
+        margin-bottom: 30%;
+        padding-left:25px;
+        padding-right:25px;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+}
+.DescImage{
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right:10%;
+    margin-bottom: 5%;
+    align-items:center;
+    font-size: 20px;
+    text-align:center;
+    white-space: nowrap;
+    background-color: #6D747D;
+    width: 150%;
+    height: 200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 10px;
+    
+}
