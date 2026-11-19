@@ -1,5 +1,7 @@
 *{
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .Logo{
     display:flex;
@@ -75,32 +77,69 @@
 .box{
     display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 120px;
   flex-wrap: wrap;
   margin-top: 15%;
   margin-left:5%
 }
 .Random{
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
     color: black;
     font-size: 30px;
     height: 100px;
     font-weight: bold;
+    text-align:center;
     
 }.Random_Box{
-   width: 170px;
-  height: 170px;
+   width: 200px;
+  height: 190px;
   border: 4px solid #3882F6;
   border-radius: 15px;
   margin-bottom: 10px;
 }
 .info{
-    font-size: 30px;
+  font-size: 30px;
   font-weight: 800;
   color: #1F2937;
   margin-bottom: 25px;
-  margin-top: 10px;
+  margin-top: 60px;
   margin-left: 35%;
+}
+.subtext{
+  font-size:12px;
+  font-weight: 600;
+  color: #5b5e62;
+  margin-top:100%;
+  margin-left:3%;  
+  
+}
+.QuoteBackground{
+  background-color: #E5E7EB;
+  display:flex;
+  flex-direction:column;
+    justify-content:center;
+  height:450px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  position: relative;
+}
+.RandomTextaah{
+    font-size: 40px;
+    font-style: italic;    
+    color: #1F2937;
+    margin-top:0;
+    margin-left: 30%;
+    margin-right: 20%;
+    white-space: wrap;
+}
+.Thor{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F2937;
+    margin-left: 65%;
+    margin-right: 5%;
+    white-space: nowrap;
 }
